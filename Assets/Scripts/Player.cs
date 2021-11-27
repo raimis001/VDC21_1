@@ -13,10 +13,12 @@ public class Player : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
+		Collider2D col = Physics2D.OverlapCircle(transform.position, 0.2f, LayerMask.GetMask("Ground"));
+		bool isGround = col != null;
+
 		if (Input.GetKeyDown(KeyCode.Space))
 		{
-			Collider2D col = Physics2D.OverlapCircle(transform.position, 0.2f, LayerMask.GetMask("Ground"));
-			bool isGround = col != null;
+			
 		}
 	}
 }
