@@ -9,6 +9,8 @@ TagManager:
   - Platform
   - Gem
   - Door
+  - TeleportStart
+  - TeleportEnd
   layers:
   - Default
   - TransparentFX
