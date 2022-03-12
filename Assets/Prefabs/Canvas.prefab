@@ -1351,9 +1351,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"MenuPanel","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"MenuPanel","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"LivesText","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ScoreText","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 460836620346213590}
+    - {fileID: 6995214353097119679}
+    - {fileID: 6995214352747279294}
 --- !u!114 &1003829154151911157
 MonoBehaviour:
   m_ObjectHideFlags: 0
